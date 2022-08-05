@@ -1,0 +1,141 @@
+.navbar{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img{
+    height: 60px;
+    width:250px;
+    float: left;
+    margin-right: 20%;
+    
+    
+}
+.nav a,label{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px;
+    font-size: 200%;
+    justify-content: space-between;
+    margin:15px;
+}
+.nav 
+a:hover{
+    transform: scale(1.5);
+}
+.recentproject p{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+.firstcontent{
+    height:300px;
+    width: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0.5%;
+    border-radius: 1.5%;
+    box-shadow:1px 1px 10px 5px #999;
+}
+.projecttitle h1{
+   
+    font-size: 20px;
+    color:#2F4468;
+    margin-left: 2%;
+    font-weight: bolder;
+}
+.projecttitle p{
+   
+    color: #606060;
+    font-size: 15px;
+    margin-left:2%;
+}
+
+.description p{
+    font-size:17px;
+}
+
+.image1 img{
+    height:200px;
+    width:350px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.contents
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contents .description
+{   
+    
+    
+    width:670px;
+    text-align: justify;
+}
+.contents .description button
+{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+    border:none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #0c12a1;
+}
+.topviewcontent p{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+.buttonclass button{
+    background-color: #D527B7;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    margin-top: -15%;
+    border:none;
+}
+
+.footer{
+    background-color: rgba(138,0,212);
+
+}
+.footer1 h6{
+    color:white;
+    text-align: center;
+    font-size:25px;
+    margin:1%;
+}
+.footer1 p{
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.lastfooter{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+
+}
+.footer p{
+    color: white;
+    margin-left: 5%;
+}
+.lastfooter ul{
+    list-style: none;
+    display: flex;
+    color:white;
+    
+}
+.lastfooter ul li{
+    margin:15px;
+}
